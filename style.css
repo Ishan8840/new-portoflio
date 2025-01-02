@@ -353,6 +353,91 @@ article .icon {
   cursor: default;
 }
 
+/* WORK EXPERIENCE TIMELINE */
+
+/* Work Experience Section */
+#work-experience {
+  padding: 40px 20px;
+  background-color: #ffffff;
+}
+
+#work-experience .title {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 2rem;
+  color: #000000;
+}
+
+/* Timeline Styling */
+#work-experience .timeline {
+  position: relative;
+  padding: 20px 0;
+  border-left: 3px solid #989898;
+}
+
+#work-experience .timeline-item {
+  position: relative;
+  margin-bottom: 30px;
+  padding-left: 20px;
+}
+
+#work-experience .timeline-item::before {
+  content: "";
+  position: absolute;
+  top: 5px;
+  left: -7px;
+  width: 14px;
+  height: 14px;
+  background-color: #2c2c2c;
+  border: 3px solid #fff;
+  border-radius: 50%;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+#work-experience .timeline-date {
+  font-size: 0.9rem;
+  color: #7f8c8d;
+  margin-bottom: 5px;
+  font-style: italic;
+}
+
+#work-experience .timeline-content h3 {
+  margin: 0;
+  font-size: 1.2rem;
+  color: #2c3e50;
+}
+
+#work-experience .timeline-content .job-title {
+  font-size: 1rem;
+  color: #323232;
+  margin: 5px 0;
+}
+
+/* List Styling */
+#work-experience .timeline-content ul {
+  margin: 10px 0 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+#work-experience .timeline-content ul li {
+  position: relative;
+  padding-left: 25px;
+  margin-bottom: 10px;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: #34495e;
+}
+
+#work-experience .timeline-content ul li::before {
+  content: "✔";
+  position: absolute;
+  left: 0;
+  color: #000000;
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+
 /* PROJECTS SECTION */
 
 #projects {
